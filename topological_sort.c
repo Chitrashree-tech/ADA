@@ -5,8 +5,7 @@ int n, a[10][10], res[10], s[10], top = 0;
 void dfs(int, int, int[][10]);
 void dfs_top(int, int[][10]);
 
-int main()
-{
+int main(){
     printf("Enter the no. of nodes");
     scanf("%d", &n);
 
